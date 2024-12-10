@@ -33,8 +33,8 @@ export default function NavbarComp() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
+          <Link color="foreground" href="/gallery">
+            Gallery
           </Link>
         </NavbarItem>
       </NavbarContent>
