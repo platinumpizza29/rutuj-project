@@ -1,5 +1,5 @@
 "use client"
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link} from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 
 export const AcmeLogo = () => {
   return (
@@ -29,7 +29,7 @@ export default function NavbarComp() {
         </NavbarItem>
         <NavbarItem isActive>
           <Link aria-current="page" href="#">
-            Customers
+            Location
           </Link>
         </NavbarItem>
         <NavbarItem>
