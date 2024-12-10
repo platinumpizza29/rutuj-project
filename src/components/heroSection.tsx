@@ -1,5 +1,3 @@
-import { Cobe } from "./codeglobe";
-
 export default function HeroSection() {
   return (
     <div>
@@ -255,10 +253,12 @@ export default function HeroSection() {
           </div>
 
           <div className="relative ms-4">
-            <Cobe />
+            {/*            <Cobe />*/}
+            <img className="w-full rounded-md" src="https://images.unsplash.com/photo-1665686377065-08ba896d16fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&h=800&q=80" alt="Hero Image" />
+
             <div className="absolute inset-0 -z-[1] -mb-4 -ms-4 me-4 mt-4 size-full rounded-md bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 lg:-mb-6 lg:-ms-6 lg:me-6 lg:mt-6"></div>
 
-            {/* <div className="absolute bottom-0 start-0">
+            <div className="absolute bottom-0 start-0">
               <svg
                 className="ms-auto h-auto w-2/3 text-white"
                 width="630"
@@ -375,7 +375,7 @@ export default function HeroSection() {
                   fill="currentColor"
                 />
               </svg>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
