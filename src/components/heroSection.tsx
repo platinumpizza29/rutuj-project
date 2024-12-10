@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <div>
-      <div className="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[85rem] mt-8 px-4 sm:px-6 lg:px-8">
         <div className="grid gap-4 md:grid-cols-2 md:items-center md:gap-8 xl:gap-20">
           <div>
             <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight">

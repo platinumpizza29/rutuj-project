@@ -9,16 +9,16 @@ export default function HomePage() {
   return (
     <main className="min-h-[100dvh]">
       <NavbarComp />
-      <section className="h-screen">
+      <section className="">
         <HeroSection />
       </section>
-      <section>
+      <section className="mt-20">
         <FeaturesComp />
       </section>
       <section>
         <MansorySectionComp />
       </section>
-      <section className="bg-primary-foreground">
+      <section className="">
         <PricingComp />
       </section>
       <footer>
