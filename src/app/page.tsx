@@ -1,4 +1,5 @@
 import FeaturesComp from "~/components/features";
+import FooterComp from "~/components/footerComp";
 import HeroSection from "~/components/heroSection";
 import NavbarComp from "~/components/navbarComp";
 import PricingComp from "~/components/pricingComp";
@@ -16,6 +17,9 @@ export default function HomePage() {
       <section className="bg-primary-foreground">
         <PricingComp />
       </section>
+      <footer>
+        <FooterComp />
+      </footer>
     </main>
   );
 }
