@@ -1,6 +1,6 @@
 export default function FeaturesComp() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 px-4 bg-white">
       <div className="container max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold tracking-tight text-center">
           Our Features
@@ -36,12 +36,10 @@ export default function FeaturesComp() {
                 <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" />
               </svg>
             </div>
-            <h4 className="text-xl font-medium text-gray-700">
-              Certifications
-            </h4>
+            <h4 className="text-xl font-medium text-gray-700">Open Seating</h4>
             <p className="text-base text-center text-gray-500">
-              Each of our plan will provide you and your team with
-              certifications.
+              30+ seats with high-speed Wi-Fi, ergonomic chairs, and ample
+              natural light.
             </p>
           </div>
 
@@ -71,9 +69,11 @@ export default function FeaturesComp() {
                 <path d="M12 8h0l4.524 -3.77a0.9 .9 0 0 1 1.476 .692v12.156a0.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
               </svg>
             </div>
-            <h4 className="text-xl font-medium text-gray-700">Notifications</h4>
+            <h4 className="text-xl font-medium text-gray-700">
+              Private Cabins
+            </h4>
             <p className="text-base text-center text-gray-500">
-              Send out notifications to all your customers to keep them engaged.
+              4-seater cabins for privacy and team focus
             </p>
           </div>
 
@@ -105,9 +105,12 @@ export default function FeaturesComp() {
                 <line x1="16" y1="5.25" x2="8" y2="9.75" />
               </svg>
             </div>
-            <h4 className="text-xl font-medium text-gray-700">Bundles</h4>
+            <h4 className="text-xl font-medium text-gray-700">
+              Conference Rooms
+            </h4>
             <p className="text-base text-center text-gray-500">
-              High-quality bundles of awesome tools to help you out.
+              Fully equipped rooms – ideal for meetings, presentations, and
+              workshops.
             </p>
           </div>
 
@@ -137,12 +140,9 @@ export default function FeaturesComp() {
                 <rect x="3" y="4" width="18" height="16" rx="2" />
               </svg>
             </div>
-            <h4 className="text-xl font-medium text-gray-700">
-              Developer Tools
-            </h4>
+            <h4 className="text-xl font-medium text-gray-700">Lockers</h4>
             <p className="text-base text-center text-gray-500">
-              Developer tools to help grow your application and keep it
-              up-to-date.
+              Personal lockers for secure storage.
             </p>
           </div>
 
@@ -174,11 +174,10 @@ export default function FeaturesComp() {
               </svg>
             </div>
             <h4 className="text-xl font-medium text-gray-700">
-              Building Blocks
+              Personal Admin Office & Support
             </h4>
             <p className="text-base text-center text-gray-500">
-              The right kind of building blocks to take your company to the next
-              level.
+              Dedicated support for administrative needs.
             </p>
           </div>
 

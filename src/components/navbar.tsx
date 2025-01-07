@@ -9,7 +9,7 @@ export default function NavbarComp() {
               className="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0"
             >
               <span className="mx-auto text-xl font-black leading-none text-gray-900 select-none">
-                tails
+                CoWork
                 <span className="text-indigo-600" data-primary="indigo-600">
                   .
                 </span>
