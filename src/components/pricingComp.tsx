@@ -13,23 +13,24 @@ export default function PricingComp() {
             </h2>
 
             <p className="mt-2 text-gray-700">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Best for individuals who need occasional workspace access.
             </p>
 
             <p className="mt-2 sm:mt-4">
               <strong className="text-3xl font-bold text-gray-900 sm:text-4xl">
-                20$
+                ₹1,000
               </strong>
 
-              <span className="text-sm font-medium text-gray-700">/month</span>
+              <span className="text-sm font-medium text-gray-700">/day</span>
             </p>
 
-            <a
-              className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-              href="#"
-            >
-              Get Started
-            </a>
+            <p className="mt-2 sm:mt-4">
+              <strong className="text-3xl font-bold text-gray-900 sm:text-4xl">
+                ₹5,000
+              </strong>
+
+              <span className="text-sm font-medium text-gray-700">/week</span>
+            </p>
           </div>
 
           <div className="p-6 sm:px-8">
@@ -54,7 +55,7 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> 10 users </span>
+                <span className="text-gray-700"> Flexible Open Seating </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -73,7 +74,7 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> 2GB of storage </span>
+                <span className="text-gray-700"> High-speed Wi-Fi </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -92,64 +93,9 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> Email support </span>
-              </li>
-
-              <li className="flex items-center gap-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-5 text-red-700"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-
-                <span className="text-gray-700"> Help center access </span>
-              </li>
-
-              <li className="flex items-center gap-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-5 text-red-700"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-
-                <span className="text-gray-700"> Phone support </span>
-              </li>
-
-              <li className="flex items-center gap-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-5 text-red-700"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-
-                <span className="text-gray-700"> Community access </span>
+                <span className="text-gray-700">
+                  basic refreshments (tea/coffee)
+                </span>
               </li>
             </ul>
           </div>
@@ -163,24 +109,25 @@ export default function PricingComp() {
             </h2>
 
             <p className="mt-2 text-gray-700">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ideal for small teams or individuals who need regular workspace
+              access.
             </p>
 
             <p className="mt-2 sm:mt-4">
               <strong className="text-3xl font-bold text-gray-900 sm:text-4xl">
-                {" "}
-                30${" "}
+                ₹12,500
               </strong>
 
               <span className="text-sm font-medium text-gray-700">/month</span>
             </p>
 
-            <a
-              className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-              href="#"
-            >
-              Get Started
-            </a>
+            <p className="mt-2 sm:mt-4">
+              <strong className="text-3xl font-bold text-gray-900 sm:text-4xl">
+                ₹40,000
+              </strong>
+
+              <span className="text-sm font-medium text-gray-700">/month</span>
+            </p>
           </div>
 
           <div className="p-6 sm:px-8">
@@ -205,7 +152,7 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> 20 users </span>
+                <span className="text-gray-700"> Flexible Open Seating </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -224,7 +171,7 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> 5GB of storage </span>
+                <span className="text-gray-700"> Private Cabins </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -243,7 +190,7 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> Email support </span>
+                <span className="text-gray-700"> Dedicated desk </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -262,7 +209,7 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> Help center access </span>
+                <span className="text-gray-700"> mail handling </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -272,35 +219,18 @@ export default function PricingComp() {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="size-5 text-red-700"
+                  className="size-5 text-indigo-700"
                 >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
+                    d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
 
-                <span className="text-gray-700"> Phone support </span>
-              </li>
-
-              <li className="flex items-center gap-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-5 text-red-700"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-
-                <span className="text-gray-700"> Community access </span>
+                <span className="text-gray-700">
+                  access to networking events
+                </span>
               </li>
             </ul>
           </div>
@@ -309,29 +239,22 @@ export default function PricingComp() {
         <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">
           <div className="p-6 sm:px-8">
             <h2 className="text-lg font-medium text-gray-900">
-              Enterprise
+              Premium
               <span className="sr-only">Plan</span>
             </h2>
 
             <p className="mt-2 text-gray-700">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Designed for businesses needing dedicated space and premium
+              amenities.
             </p>
 
             <p className="mt-2 sm:mt-4">
               <strong className="text-3xl font-bold text-gray-900 sm:text-4xl">
-                {" "}
-                100${" "}
+                ₹40,000
               </strong>
 
               <span className="text-sm font-medium text-gray-700">/month</span>
             </p>
-
-            <a
-              className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-              href="#"
-            >
-              Get Started
-            </a>
           </div>
 
           <div className="p-6 sm:px-8">
@@ -356,7 +279,10 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> 50 users </span>
+                <span className="text-gray-700">
+                  12-Seater:
+                  <strong className="font-bold text-gray-900"> ₹1,200</strong>
+                </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -375,7 +301,10 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> 20GB of storage </span>
+                <span className="text-gray-700">
+                  8-Seater:
+                  <strong className="font-bold text-gray-900"> ₹1,000</strong>
+                </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -394,7 +323,7 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> Email support </span>
+                <span className="text-gray-700"> Private Cabins </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -413,7 +342,7 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> Help center access </span>
+                <span className="text-gray-700"> Conference Rooms </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -432,7 +361,7 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> Phone support </span>
+                <span className="text-gray-700"> priority booking </span>
               </li>
 
               <li className="flex items-center gap-1">
@@ -451,7 +380,28 @@ export default function PricingComp() {
                   />
                 </svg>
 
-                <span className="text-gray-700"> Community access </span>
+                <span className="text-gray-700">
+                  printing/scanning facilities
+                </span>
+              </li>
+
+              <li className="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="size-5 text-indigo-700"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+
+                <span className="text-gray-700">premium refreshments</span>
               </li>
             </ul>
           </div>
