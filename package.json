@@ -10,9 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.34.0",
+    "caniuse-lite": "^1.0.30001726",
+    "clsx": "^2.1.1",
+    "motion": "^12.20.2",
+    "ogl": "^1.0.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router": "^7.1.1"
+    "react-router": "^7.1.1",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
